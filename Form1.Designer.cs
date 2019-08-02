@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Prueba));
             this.button1 = new System.Windows.Forms.Button();
             this.opcion1 = new System.Windows.Forms.RadioButton();
             this.opcion2 = new System.Windows.Forms.RadioButton();
@@ -36,10 +35,7 @@
             this.opcion4 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.pregunta = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -120,27 +116,6 @@
             this.pregunta.Size = new System.Drawing.Size(0, 15);
             this.pregunta.TabIndex = 6;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(820, 360);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(244, 88);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(875, 461);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(190, 30);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Diseño: Nombre de Programador\r\n     2016";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -158,8 +133,6 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1076, 540);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pregunta);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.opcion4);
@@ -172,7 +145,6 @@
             this.Name = "Prueba";
             this.Text = "BANCO DE PREGUNTAS";
             this.Load += new System.EventHandler(this.Form1_Load_1);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,8 +159,6 @@
         private System.Windows.Forms.RadioButton opcion4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label pregunta;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
     }
 }
